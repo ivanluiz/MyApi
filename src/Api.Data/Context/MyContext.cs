@@ -6,13 +6,13 @@ namespace Api.Data.Context
 {
     public class MyContext : DbContext
     {
-        public DbSet<DirectoryEntity> Directories { get; set; }
-        public DbSet<GeometricFormEntity> GeometricForms { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
+
         public MyContext (DbContextOptions<MyContext> options) : base (options) {}
+
         protected override void OnModelCreating (ModelBuilder modelBuilder) {
             base.OnModelCreating (modelBuilder);
-            modelBuilder.Entity<DirectoryEntity>(new DirectoryMap().Configure);
-            modelBuilder.Entity<GeometricFormEntity>(new GeometricFormMap().Configure);
+            modelBuilder.Entity<UserEntity>(new UserMap().Configure);
         }
     }
 }

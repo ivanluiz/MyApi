@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\adm\\.nuget\\packages\\": {},
+    "C:\\Users\\ivanlg\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\API\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\API\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\adm\\.nuget\\packages\\",
-      "outputPath": "D:\\API\\CursoApiDDD\\src\\Api.Domain\\obj\\",
+      "projectPath": "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
+      "outputPath": "C:\\CursoApiDDD\\src\\Api.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\adm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivanlg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

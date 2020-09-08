@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 using Api.Domain.Entities;
-using Api.Domain.Interfaces.Services.GeometricForm;
+using Api.Domain.Interfaces.Services.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Application.Controllers
@@ -10,10 +10,10 @@ namespace Api.Application.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
-    public class GeometricFormsController : ControllerBase
+    public class UsersController : ControllerBase
     {
-        private IGeometricFormService _service;
-        public GeometricFormsController(IGeometricFormService service)
+        private IUserService _service;
+        public UsersController(IUserService service)
         {
             this._service = service;
         }
@@ -37,7 +37,7 @@ namespace Api.Application.Controllers
         }
 
         [HttpGet]
-        [Route("{id}", Name = "GetGeometricFormWithId")]
+        [Route("{id}", Name = "GetWithId")]
         public async Task<ActionResult> Get(Guid Id)
         {
             if (!ModelState.IsValid)
@@ -56,7 +56,7 @@ namespace Api.Application.Controllers
         }
 
         [HttpPost] //[FromBody] Json, que vai conter um userEntity
-        public async Task<ActionResult> Post([FromBody] GeometricFormEntity entity)
+        public async Task<ActionResult> Post([FromBody] UserEntity entity)
         {
             if (!ModelState.IsValid)
             {
@@ -67,7 +67,7 @@ namespace Api.Application.Controllers
             {
                 var result = await _service.Post(entity);
                 if (result != null)
-                    return Created(new Uri(Url.Link("GetGeometricFormWithId", new { id = result.Id })), result);
+                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
                 else
                     return BadRequest();
             }
@@ -78,7 +78,7 @@ namespace Api.Application.Controllers
         }
 
         [HttpPut] //[FromBody] Json, que vai conter um userEntity
-        public async Task<ActionResult> Put([FromBody] GeometricFormEntity entity)
+        public async Task<ActionResult> Put([FromBody] UserEntity entity)
         {
             if (!ModelState.IsValid)
             {
