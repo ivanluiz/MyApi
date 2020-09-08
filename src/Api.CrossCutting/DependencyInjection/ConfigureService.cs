@@ -1,6 +1,5 @@
 using Api.Domain.Interfaces.Services.Directory;
 using Api.Domain.Interfaces.Services.GeometricForm;
-using Api.Domain.Interfaces.Services.User;
 using Api.Service.Services;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,7 +9,6 @@ namespace Api.CrossCutting.DependencyInjection
     {
         public static void ConfigureDependenciesService(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddTransient<IUserService, UserService>();
             serviceCollection.AddTransient<IDirectoryService, DirectoryService>();
             serviceCollection.AddTransient<IGeometricFormService, GeometricFormService>();
         }
