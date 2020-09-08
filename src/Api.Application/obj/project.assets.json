@@ -5663,11 +5663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CursoApiDDD\\src\\Api.Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\CursoApiDDD\\src\\Api.Application\\Application.csproj",
+      "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Application\\Application.csproj",
       "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-      "outputPath": "C:\\CursoApiDDD\\src\\Api.Application\\obj\\",
+      "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5686,14 +5686,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\CursoApiDDD\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "C:\\CursoApiDDD\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj"
             },
-            "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
             },
-            "C:\\CursoApiDDD\\src\\Api.Service\\Service.csproj": {
-              "projectPath": "C:\\CursoApiDDD\\src\\Api.Service\\Service.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj"
             }
           }
         }

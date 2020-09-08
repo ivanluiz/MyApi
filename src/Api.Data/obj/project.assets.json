@@ -5424,11 +5424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CursoApiDDD\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\CursoApiDDD\\src\\Api.Data\\Data.csproj",
+      "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-      "outputPath": "C:\\CursoApiDDD\\src\\Api.Data\\obj\\",
+      "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5447,8 +5447,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

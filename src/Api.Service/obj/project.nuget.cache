@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2MihDEH7QHsNZ2tPziXZgi6tfmE84Etx+J+lYwow/AOkukZoZqU0tt1uLF0yLcmykcXHBTKvZjFlXMHttqPl0Q==",
+  "dgSpecHash": "NLA5aAhp0ii3uO17Du8jhh8TEra8PNpHOFOab7BetM3DSiu9K+Vpjlfx+/GA/a01HrzsEs1dBzo9TKRVDcHSyw==",
   "success": true,
-  "projectFilePath": "C:\\CursoApiDDD\\src\\Api.Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivanlg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ivanlg\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

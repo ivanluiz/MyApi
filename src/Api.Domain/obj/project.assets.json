@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\CursoApiDDD\\src\\Api.Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-      "outputPath": "C:\\CursoApiDDD\\src\\Api.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
