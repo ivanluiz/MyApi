@@ -14,10 +14,11 @@ namespace Api.Data.Mapping
             builder.ToTable("GeometricForm");
 
             builder.HasKey(g => g.Id);
-                   
+
 
             builder.Property(g => g.Name)
-                   .IsRequired();
+                   .IsRequired()
+                   .HasMaxLength(60);
 
             var converter = new ValueConverter<TypeGeometricForm, string>
             (
@@ -26,8 +27,9 @@ namespace Api.Data.Mapping
             );
 
             builder.Property(e => e.Type)
-                   .HasConversion(converter);
-                   
+                   .HasConversion(converter)
+                   .IsRequired();
+
             builder.Property(g => g.Color)
                    .IsRequired()
                    .HasMaxLength(60);

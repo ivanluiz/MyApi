@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20200908233228_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20200909221731_First")]
+    partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,7 +30,8 @@ namespace Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                        .HasColumnType("varchar(60) CHARACTER SET utf8mb4")
+                        .HasMaxLength(60);
 
                     b.Property<DateTime>("UpdateAt")
                         .HasColumnType("datetime(6)");
@@ -54,12 +55,10 @@ namespace Data.Migrations
                     b.Property<DateTime?>("CreateAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<Guid?>("DirectoryId")
-                        .HasColumnType("char(36)");
-
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+                        .HasColumnType("varchar(60) CHARACTER SET utf8mb4")
+                        .HasMaxLength(60);
 
                     b.Property<int>("Size")
                         .HasColumnType("int")
@@ -74,16 +73,7 @@ namespace Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DirectoryId");
-
                     b.ToTable("GeometricForm");
-                });
-
-            modelBuilder.Entity("Api.Domain.Entities.GeometricFormEntity", b =>
-                {
-                    b.HasOne("Api.Domain.Entities.DirectoryEntity", "Directory")
-                        .WithMany()
-                        .HasForeignKey("DirectoryId");
                 });
 #pragma warning restore 612, 618
         }

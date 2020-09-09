@@ -13,7 +13,8 @@ namespace Api.Data.Mapping
             builder.HasKey(d => d.Id);
 
             builder.Property(d => d.Name)
-                   .IsRequired();
+                   .IsRequired()
+                   .HasMaxLength(60);
         }
     }
 }

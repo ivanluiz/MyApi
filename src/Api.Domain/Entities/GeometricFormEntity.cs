@@ -10,10 +10,10 @@ namespace Api.Domain.Entities
         {
             get { return this._directoryEntity; }
             set { this._directoryEntity = value; }
-        }       
-        public string Name { get; set; }  
+        }  
+        public string Name { get; set; }
         public TypeGeometricForm Type { get; set; }
-        public string Color { get; set; }   
-        public int Size { get; set; }  
+        public string Color { get; set; }
+        public int Size { get; set; }
     }
 }
