@@ -33,6 +33,7 @@ namespace Api.Service.Services
 
         public async Task<GeometricFormEntity> Post(GeometricFormEntity GeometricForm)
         {
+            
             return await _repository.InsertAsync(GeometricForm);
         }
 

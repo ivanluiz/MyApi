@@ -20,14 +20,7 @@ namespace Api.Data.Mapping
                    .IsRequired()
                    .HasMaxLength(60);
 
-            var converter = new ValueConverter<TypeGeometricForm, string>
-            (
-                v => v.ToString(),
-                v => (TypeGeometricForm)Enum.Parse(typeof(TypeGeometricForm), v)
-            );
-
             builder.Property(e => e.Type)
-                   .HasConversion(converter)
                    .IsRequired();
 
             builder.Property(g => g.Color)
