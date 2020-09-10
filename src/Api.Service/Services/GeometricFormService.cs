@@ -31,10 +31,14 @@ namespace Api.Service.Services
             return await _repository.SelectAsync();
         }
 
+        //private IRepository<DirectoryEntity> _repositoryDiretory;
         public async Task<GeometricFormEntity> Post(GeometricFormEntity GeometricForm)
         {
-            
+            //var retorno = await _repositoryDiretory.SelectAsync(GeometricForm.Directory.Id);
+            //if (retorno != null)
             return await _repository.InsertAsync(GeometricForm);
+            //else
+            //throw new Exception("Diretório não foi encontrado!");
         }
 
         public async Task<GeometricFormEntity> Put(GeometricFormEntity GeometricForm)

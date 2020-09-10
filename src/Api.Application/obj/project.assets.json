@@ -5629,23 +5629,23 @@
     },
     "CrossCutting/1.0.0": {
       "type": "project",
-      "path": "../Api.CrossCutting/CrossCutting.csproj",
-      "msbuildProject": "../Api.CrossCutting/CrossCutting.csproj"
+      "path": "../api.crosscutting/CrossCutting.csproj",
+      "msbuildProject": "../api.crosscutting/CrossCutting.csproj"
     },
     "Data/1.0.0": {
       "type": "project",
-      "path": "../Api.Data/Data.csproj",
-      "msbuildProject": "../Api.Data/Data.csproj"
+      "path": "../api.data/Data.csproj",
+      "msbuildProject": "../api.data/Data.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../Api.Domain/Domain.csproj",
-      "msbuildProject": "../Api.Domain/Domain.csproj"
+      "path": "../api.domain/Domain.csproj",
+      "msbuildProject": "../api.domain/Domain.csproj"
     },
     "Service/1.0.0": {
       "type": "project",
-      "path": "../Api.Service/Service.csproj",
-      "msbuildProject": "../Api.Service/Service.csproj"
+      "path": "../api.service/Service.csproj",
+      "msbuildProject": "../api.service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5686,14 +5686,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\CrossCutting.csproj"
             },
-            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj"
             },
-            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj"
             }
           }
         }
