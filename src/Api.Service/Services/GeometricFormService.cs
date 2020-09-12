@@ -21,6 +21,11 @@ namespace Api.Service.Services
             return await _repository.DeleteAsync(id);
         }
 
+        public async Task<bool> Exist(Guid id)
+        {
+            return await _repository.ExistAsync(id);
+        }
+
         public async Task<GeometricFormEntity> Get(Guid id)
         {
             return await _repository.SelectAsync(id);
@@ -31,14 +36,9 @@ namespace Api.Service.Services
             return await _repository.SelectAsync();
         }
 
-        //private IRepository<DirectoryEntity> _repositoryDiretory;
         public async Task<GeometricFormEntity> Post(GeometricFormEntity GeometricForm)
         {
-            //var retorno = await _repositoryDiretory.SelectAsync(GeometricForm.Directory.Id);
-            //if (retorno != null)
             return await _repository.InsertAsync(GeometricForm);
-            //else
-            //throw new Exception("Diretório não foi encontrado!");
         }
 
         public async Task<GeometricFormEntity> Put(GeometricFormEntity GeometricForm)

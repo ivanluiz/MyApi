@@ -53,11 +53,11 @@ namespace Api.Data.Repository
 
             return item;
         }
-
         public async Task<bool> ExistAsync(Guid id)
         {
             return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
+        
         public async Task<T> SelectAsync(Guid id)
         {
             try

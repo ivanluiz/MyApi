@@ -12,5 +12,6 @@ namespace Api.Domain.Interfaces.Services.GeometricForm
         Task<GeometricFormEntity> Post(GeometricFormEntity geometricForm);
         Task<GeometricFormEntity> Put(GeometricFormEntity geometricForm);
         Task<bool> Delete(Guid id);
+        Task<bool> Exist(Guid id);
     }
 }

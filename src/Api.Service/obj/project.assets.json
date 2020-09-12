@@ -5350,13 +5350,13 @@
     },
     "Data/1.0.0": {
       "type": "project",
-      "path": "../api.data/Data.csproj",
-      "msbuildProject": "../api.data/Data.csproj"
+      "path": "../Api.Data/Data.csproj",
+      "msbuildProject": "../Api.Data/Data.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../api.domain/Domain.csproj",
-      "msbuildProject": "../api.domain/Domain.csproj"
+      "path": "../Api.Domain/Domain.csproj",
+      "msbuildProject": "../Api.Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5372,11 +5372,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj",
+      "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj",
       "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\obj\\",
+      "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5395,11 +5395,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj": {
-              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj"
             },
-            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj"
+            "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

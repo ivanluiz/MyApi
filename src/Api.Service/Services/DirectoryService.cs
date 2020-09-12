@@ -40,5 +40,10 @@ namespace Api.Service.Services
         {
             return await _repository.UpdateAsync(directory);
         }
+
+        public async Task<bool> Exist(Guid id)
+        {
+            return await _repository.ExistAsync(id);
+        }
     }
 }

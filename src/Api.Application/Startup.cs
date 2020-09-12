@@ -56,12 +56,15 @@ namespace Application
             }
 
             //Configurando o Swagger(Pacote Swashbuckle)
+
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api");
                 c.RoutePrefix = string.Empty;
             });
+            
+
             app.UseRouting();
 
             app.UseAuthorization();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\CrossCutting.csproj": {}
+    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\CrossCutting.csproj": {
+    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\CrossCutting.csproj",
+        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.crosscutting\\obj\\",
+        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,14 +30,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj": {
-                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj"
+              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj"
+              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj": {
-                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj"
+              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj": {
+    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj",
+        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\obj\\",
+        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -101,8 +101,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj"
+              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj": {
+    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\obj\\",
+        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -211,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj": {
+    "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\Service.csproj",
+        "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\ivanlg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.service\\obj\\",
+        "outputPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -237,11 +237,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj": {
-                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.data\\Data.csproj"
+              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj"
+              "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }

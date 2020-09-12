@@ -12,5 +12,6 @@ namespace Api.Domain.Interfaces.Services.Directory
         Task<DirectoryEntity> Post(DirectoryEntity diretory);
         Task<DirectoryEntity> Put(DirectoryEntity diretory);
         Task<bool> Delete(Guid id);
+        Task<bool> Exist(Guid id);
     }
 }

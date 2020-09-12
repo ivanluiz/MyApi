@@ -111,14 +111,10 @@ C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcore
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
-C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
@@ -145,7 +141,6 @@ C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcore
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
-C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.RazorTargetAssemblyInfo.cache
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
@@ -154,3 +149,8 @@ C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcore
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.dll
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.pdb
 C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
+C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ivanlg\Desktop\Projetos Git\MyApi\src\Api.Application\obj\Debug\netcoreapp3.1\Application.MvcApplicationPartsAssemblyInfo.cs
