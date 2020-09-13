@@ -53,6 +53,7 @@ namespace Api.Data.Repository
 
             return item;
         }
+
         public async Task<bool> ExistAsync(Guid id)
         {
             return await _dataset.AnyAsync(p => p.Id.Equals(id));
@@ -63,6 +64,7 @@ namespace Api.Data.Repository
             try
             {
                 return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+                //return await _dataset.FirstOrDefaultAsync(p => p.Id.Equals(id));
             }
             catch (Exception ex)
             {
@@ -74,7 +76,8 @@ namespace Api.Data.Repository
         {
             try
             {
-                return await _dataset.ToListAsync();
+                //AsNoTracking() listar sem o objetivo de alterar
+                return await _dataset.AsNoTracking().ToListAsync();
             }
             catch (Exception ex)
             {

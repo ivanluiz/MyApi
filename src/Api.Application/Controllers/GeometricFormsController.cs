@@ -68,9 +68,10 @@ namespace Api.Application.Controllers
 
             try
             {
-                //falta implementar Directory exist
+                //falta implementar Directory exist, esta parte não funciona como esperado
+                //Deve retornar true ou false
                 /*var directory = _directoryService.Exist(entity.Directory.Id);
-                if(directory == null)
+                if (directory == null)
                 {
                     return BadRequest();
                 }*/

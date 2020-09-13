@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P9zx9nie4VQjnl5qNb6x2d8K0XeHDxcjTsetrye9f1XC93j5Y9VKT1EWiVKJE/yIy6nUObaiQvdWwbFO6TpOQA==",
+  "dgSpecHash": "iDImg7xr4NHSyx2U8Nj7YKQ52E02/uuvYqENHb9pKLkrKE4quYfYAjv1lSkkYTApM511iqmpHpo3Xo3vxlPLJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\ivanlg\\Desktop\\Projetos Git\\MyApi\\src\\api.domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
